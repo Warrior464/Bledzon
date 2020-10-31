@@ -160,6 +160,10 @@ header h1.logo
 .product-box
 {
 	position: relative;
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #24252a;
 	color: black;
 	background-size: cover;
 	background-position: center;
@@ -169,6 +173,10 @@ header h1.logo
 {
 	background-color: #FFFFFFDF;
 	position: absolute;
+	border-width: 0px;
+	border-color: #24252a;
+	border-style: outset;
+	border-radius: 10px;
 	bottom: 0;
 	width: 100%;
 	padding: 5px 20px;
