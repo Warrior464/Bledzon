@@ -274,7 +274,7 @@ header h1.logo
 
 .product-grid1
 {
-	background-image: url(../images/nintedno-switch-3tgd.jpg);
+	background-image: url(../images/Capture_switch.png);
 	grid-column: 1/2;
 }
 .product-grid2
@@ -300,15 +300,26 @@ header h1.logo
 .product-grid6
 {
 	background-image: url(../images/21312071355550_954.jpg);
+	background-position: right;
 	grid-column: 4/5;
 }
 .product-grid7
 {
-	background-image: url(../images/7.png);
+	background-image: url(../images/hdmi-cable-top.jpg);
 	grid-column: 1/2;
 }
 .product-grid8
 {
-	background-image: url(../images/7.png);
+	background-image: url(../images/logitech-g-pro-x.jpg);
 	grid-column: 2/3;
+}
+.product-grid9
+{
+	background-image: url(../images/ps4-pro-1.jpg);
+	grid-column: 3/4;
+}
+.product-grid10
+{
+	background-image: url(../images/xbox-one-s-13-1-1024x576.jpg);
+	grid-column: 4/5;
 }
