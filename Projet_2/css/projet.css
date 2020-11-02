@@ -135,6 +135,7 @@ header h1.logo
 
 .section-title
 {
+	margin: 80px;
 	font-size: 50px;
 	color: white;
 	font-family: "Abril FatFace", cursive;
@@ -150,6 +151,58 @@ header h1.logo
 	width: 50px;
 	height: 7px;
 	bottom: 0;
+}
+
+.slider
+{
+	margin: auto;
+	width: 1200px;
+	overflow: hidden;
+}
+
+.slides
+{
+	width: calc(1200px * 3);
+	animation: glissement 10s infinite;
+
+}
+.slide
+{
+	float: left;
+	
+}
+
+@keyframes glissement
+{
+	0% 
+	{
+		transform: translateX(0);
+	}
+	20% 
+	{
+		transform: translateX(0);
+	}
+	33% 
+	{
+		transform: translateX(-1200px);
+	}
+	53% 
+	{
+		transform: translateX(-1200px);
+	}
+
+	66% 
+	{
+		transform: translateX(-2400px);
+	}
+	86% 
+	{
+		transform: translateX(-2400px);
+	}
+	100% 
+	{
+		transform: translateX(0);
+	}
 }
 
 #produits
