@@ -8,9 +8,11 @@
 		<link rel="stylesheet" href="..\css\projet.css" />
 		<title>Bledzon | Vente en ligne de matériel informatique</title>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+		<script src="../js/recherches.js"></script>
 	</head>
 
 	<body>
+		<!-- Tête de page-->
 		<header>
 			<h1 class="logo">Bledzon</h1>
 			<nav>
@@ -22,11 +24,12 @@
 			</nav>
 			<a class="cta" href="panier.html"><button>Panier</button></a>
 			<div class="search-box">
-				<input class="search-txt" type="text" name="" placeholder="Rechercher...">
+				<input class="search-txt" id="search" type="text" name="" value="" onchange="ouvrirPage" placeholder="Rechercher...">
 				<a href="#" class="search-btn">
-					<i class="fas fa-search"></i>
+					<i class="fas fa-search" onclick="ouvrirPage()"></i>
 				</a>
 			</div>
+
 		</header>
 
 		<h2 class="section-title">
@@ -36,7 +39,7 @@
 		<div class="slider">
 			
 			<div class="slides">
-				<div class="slide"><img src="../images/Promo_noel.jpg" alt="Promotion Noël" title="Promotion Noël 🎁"></div>
+				<div class="slide"><a href="../images/Bledzon Promotion Noël 2020.jpg"><img src="../images/Promo_noel.jpg" alt="Promotion Noël" title="Promotion Noël 🎁"></a></div>
 				<div class="slide"><img src="../images/iphone-12-pro-og-202009.jpg" alt="Iphone 12" title="Iphone 12 📱"></div>
 				<div class="slide"><img src="../images/mariokartlivehome.jpg" alt="Mario kart Live Home Circuitx" title="Mario Kart Live Home Circuit 🏎"></div>
 				<div class="slide"><img src="../images/ps5.jpg" alt="PS5" title="PS5 🎮"></div>
@@ -50,25 +53,25 @@
 		<section id="produits">
 			
 			<div class="product-grid">
-				<a href="switch.html" title="Nintendo Switch avec Joy-con" target="_blank"class="product-grid1 product-box">
+				<a href="switch.html" title="Nintendo Switch avec Joy-con" class="product-grid1 product-box">
 					<div class="product-details">
 						<p class="product-name">Nintendo switch</p>
 						<p class="product-price">169.99$</p>
 					</div>
 				</a>
-				<a href="macbook.html" title="Apple MacBook air" target="_blank" class="product-grid2 product-box">
+				<a href="macbook.html" title="Apple MacBook air" class="product-grid2 product-box">
 					<div class="product-details">
 						<p class="product-name">Apple MacBook Air</p></p>
 						<p class="product-price">849$</p>
 					</div>
 				</a>
-				<a href="razer_raptor.html" title="Razer Raptor Gaming monitor" target="_blank"class="product-grid3 product-box">
+				<a href="razer_raptor.html" title="Razer Raptor Gaming monitor" class="product-grid3 product-box">
 					<div class="product-details">
 						<p class="product-name">Razer Raptor 144Hz</p>
 						<p class="product-price">649.99$</p>
 					</div>
 				</a>
-				<a href="" class="product-grid4 product-box">
+				<a href="clavier_rk918.html" class="product-grid4 product-box">
 					<div class="product-details">
 						<p class="product-name">Clavier RK918</p>
 						<p class="product-price">149.90$</p>
@@ -86,16 +89,16 @@
 						<p class="product-price">19.90$</p>
 					</div>
 				</a>
-				<a href="" class="product-grid7 product-box">
+				<a href="cable_hdmi.html" class="product-grid7 product-box">
 					<div class="product-details">
-						<p class="product-name">??</p>
-						<p class="product-price">??$</p>
+						<p class="product-name">Câble HDMI 4K 60Hz</p>
+						<p class="product-price">11,99$</p>
 					</div>
 				</a>
-				<a href="" class="product-grid8 product-box">
+				<a href="casque_logitech.html" class="product-grid8 product-box">
 					<div class="product-details">
-						<p class="product-name">??</p>
-						<p class="product-price">??$</p>
+						<p class="product-name">Casque Logitech</p>
+						<p class="product-price">95,90$</p>
 					</div>
 				</a>
 			</div>
