@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+    margin: 0 auto;
+	font-family: 'Montserrat';
+	background-color: #24252A;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.nav_links
+{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 475px;
+}
+
+.nav_links li
+{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a
+{
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover
+{
+	color: #0088a9;
+}
+
+button
+{
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+	background-color: rgba(0,136,169,0.8);
+}
+
+li, a, button
+{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header h1.logo
+{
+	width: 150px;
+	color: aqua;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.produit
+{
+    display: flex;
+    min-height: 200px;
+    padding: 20px;
+    background-color: #FFFFFFCF;
+    border-radius: 20px;
+    
+}
+
+.image-box
+{
+    height: 300px;
+    width: 380px;
+    padding: 20px;
+    position: relative;
+    color: #24252A; 
+    background: url(../images/iphone-12-pro-og-202009.jpg);
+	background-size: cover;
+    background-position: center;
+   
+}
+.name
+{
+    color: rgba(0,136,169,1);
+    padding-left: 20px;
+	font-size: 20px;
+	line-height: 3px;
+	font-weight: 600;
+}
+.price
+{
+    color: rgba(0,136,169,1);
+    padding-left: 20px;
+	font-size: 18px;
+	line-height: 5px;
+	font-weight: 600;
+}
+.details, li
+{
+    color: black;
+    padding-left: 20px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.description
+{
+    color: #FFFFFFCF;
+    padding-left: 20px;
+	font-size: 16px;
+	font-weight: 600;
+}
+h2
+{
+    color: #0088a9;
+}
+.ratings
+{
+    color: #FFFFFFCF;
+    padding-left: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.ratings p
+{
+    font-size: 16px;
+}
