@@ -323,3 +323,15 @@ header h1.logo
 	background-image: url(../images/xbox-one-s-13-1-1024x576.jpg);
 	grid-column: 4/5;
 }
+.product-grid11
+{
+	background-image: url(../images/homall-chair.jpg);
+	background-position: right;
+	grid-column: 1/2;
+}
+.product-grid12
+{
+	background-image: url(../images/Oculus-Quest-.jpg);
+	grid-column: 2/3;
+	background-position: left;
+}
