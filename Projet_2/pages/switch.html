@@ -6,7 +6,8 @@
         <link rel="shortcut icon" href="..\images\icon.jpg" type="image/x-icon">
 		<link rel="stylesheet" href="..\css\switch.css" />
 		<title>Bledzon | Nintendo Swicth</title>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+        <script src="../js/recherches.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
 	</head>
 
 	<body>
@@ -36,6 +37,24 @@
                     <li>Se connecte via Wi-Fi pour les jeux multijoueurs</li>
                     <li>Jusqu’à 8 consoles peuvent être connectées pour le multijoueur sans fil local</li>
                 </p>
+                <div class="ajouter_panier">
+                    <label for="q"></label>
+                    <select id="qt" name="q">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <button
+                    type="button" class="add-to-cart" data-id="" data-name="" data-price="" data-url="" onclick="showAlert()">
+                    <i class="fa fa-shopping-basket"></i>
+                    </button>
+                </div>
             </div>
             
         </section>

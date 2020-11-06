@@ -48,3 +48,14 @@ function ouvrirPage()
 		window.open("xbox_one_s.html");
   }
 }
+
+function initElement()
+{
+  var p = document.getElementById("add-to-cart");
+  p.onclick = showAlert;
+};
+
+function showAlert()
+{
+  alert("Indisponible pour le moment 👷‍♂️🚧 \nJuste pour faire joli :)");
+}
