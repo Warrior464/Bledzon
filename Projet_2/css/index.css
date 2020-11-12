@@ -336,3 +336,15 @@ header h1.logo
 	grid-column: 2/3;
 	background-position: left;
 }
+
+/* Pied de page */
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 100px;
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
