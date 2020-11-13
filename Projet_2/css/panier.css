@@ -1,0 +1,14 @@
+body
+{
+    background-image: url(../images/rayures.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2200px 800px;
+}
+
+.image
+{
+    text-align: center;
+    margin: auto;
+}
